@@ -1,0 +1,13 @@
+[package]
+name = "wasm_memory"
+version = "0.1.0"
+authors = ["kipcode66"]
+edition = "2018"
+
+[lib]
+name = "wasm_memory"
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.*"
+wasm-bindgen-futures = "0.4.*"
